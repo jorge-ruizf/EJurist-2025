@@ -1,0 +1,325 @@
+/* Fuente y texto */
+.h1, .h2, .h3, a, body, div, input, label, li, p, ul {
+  font-family: Roboto, sans-serif;
+  color: #5a3e36; /* Café cálido para el texto principal */
+}
+a, body, div, input, label, li, p, ul {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+.h1 {
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+
+.h2 {
+  font-size: 30px !important;
+  font-weight: 300;
+}
+
+.h3 {
+  font-size: 22px !important;
+}
+
+/* Colores */
+.text-warning {
+  color: #fec04f !important; /* Amarillo anaranjado */
+}
+
+.text-muted {
+  color: #bcbcbc !important;
+}
+
+.text-success {
+  color: #0da7b1 !important; /* Cian fuerte */
+}
+
+.text-light {
+  color: #e0f0e6 !important; /* Verde pastel claro */
+}
+
+/* Fondos */
+.bg-dark {
+  background-color: #0e4480 !important; /* Azul oscuro */
+}
+
+.bg-light {
+  background-color: #e0f0e6 !important; /* Verde pastel claro */
+}
+
+.bg-black {
+  background-color: #1d242d !important;
+}
+
+.bg-success, .btn-success {
+  background-color: #e86f2a !important; /* Naranja */
+}
+
+.btn-success {
+  border-color: #c2561c !important; /* Naranja oscuro */
+}
+
+/* Paginación */
+.pagination .page-link.active, .pagination .page-link:hover {
+  background-color: #6bd3de;
+  color: #fff;
+}
+
+/* Barra de navegación */
+#templatemo_nav_top {
+  min-height: 40px;
+}
+
+#templatemo_nav_top * {
+  font-size: .9em !important;
+}
+
+#templatemo_main_nav a {
+  color: #0e4480;
+}
+
+#templatemo_main_nav a:hover {
+  color: #0da7b1;
+}
+
+#templatemo_main_nav .navbar .nav-icon {
+  margin-right: 20px;
+}
+
+#template-mo-zay-hero-carousel {
+  background: #e0f0e6 !important;
+}
+
+/* Acordeón */
+.templatemo-accordion a {
+  color: #0e4480;
+}
+
+.templatemo-accordion a:hover {
+  color: #0da7b1;
+}
+
+/* Productos */
+.product-wap {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+}
+
+.product-wap .product-color-dot.color-dot-red {
+  background: #e86f2a;
+}
+
+.product-wap .product-color-dot.color-dot-blue {
+  background: #0e4480;
+}
+
+.product-wap .product-color-dot.color-dot-black {
+  background: #5a3e36; /* Café oscuro */
+}
+
+.product-wap .product-color-dot.color-dot-light {
+  background: #e0f0e6;
+}
+
+.product-wap .product-color-dot.color-dot-green {
+  background: #6bd3de;
+}
+
+/* Overlay de productos */
+.card.product-wap .card .product-overlay {
+  background: rgba(0, 0, 0, .2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card.product-wap a {
+  color: #0e4480;
+}
+
+/* Carousel */
+#carousel-related-product .slick-slide:focus {
+  outline: 0 !important;
+}
+
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.brand-img {
+  filter: grayscale(100%);
+  opacity: .5;
+  transition: .5s;
+}
+
+.brand-img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #0da7b1;
+}
+
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #0e4480 !important;
+  font-size: 2.8em !important;
+}
+
+/* Servicios */
+.services-icon-wap {
+  transition: .3s;
+}
+
+.services-icon-wap:hover, .services-icon-wap:hover i {
+  color: #fff;
+}
+
+.services-icon-wap:hover {
+  background: #6bd3de;
+}
+
+/* Formulario y pie de página */
+.form-control {
+  border: 1px solid #e8e8e8;
+}
+
+#tempaltemo_footer a {
+  color: #e0f0e6;
+}
+
+#tempaltemo_footer a:hover {
+  color: #0da7b1;
+}
+
+#tempaltemo_footer ul.footer-link-list li {
+  padding-top: 10px;
+  color: #e0f0e6;
+}
+
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+  color: #e0f0e6;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #e0f0e6;
+  transition: .5s;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #0e4480;
+  transition: .5s;
+}
+
+#tempaltemo_footer .border-light {
+  border-color: #e0f0e6 !important;
+}
+
+/* Productos en tienda */
+.product-wap .h3, .product-wap i, .product-wap li, .product-wap p {
+  font-size: 12px !important;
+}
+
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+/* Responsividad */
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 {
+      font-size: .5em !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {
+      max-width: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {
+      max-width: 550px;
+  }
+  
+  #template-mo-zay-hero-carousel .carousel-item {
+      min-height: 30rem !important;
+  }
+  
+  .product-wap .h3, .product-wap i, .product-wap li, .product-wap p {
+      font-size: 18px !important;
+  }
+
+  .product-wap .product-color-dot {
+      width: 12px;
+      height: 12px;
+  }
+}
+
+
+/* ===== Codigo Propio ===== */
+
+
+
+
+
+
+/* ===== Encabezado superior (contacto) y sobrefooter ===== */
+#templatemo_nav_top, footer .bg-dark:first-of-type {
+  color: #e0f0e6 !important;
+}
+
+#templatemo_nav_top a,
+#templatemo_nav_top i,
+footer .bg-dark:first-of-type a,
+footer .bg-dark:first-of-type i,
+footer .bg-dark:first-of-type p {
+  color: #e0f0e6 !important;
+}
+
+/* ===== Iconos de redes sociales sin borde circular ===== */
+.footer-icons li {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* ===== Color pastel claro para enlace en footer inferior ===== */
+footer .bg-dark:last-of-type a {
+  color: #a1c2ba !important; /* Un tono pastel claro que resalta */
+}
+
+footer .bg-dark:last-of-type a:hover {
+  color: #cde7df !important; /* Un poco más claro al pasar el mouse */
+}
+
+#tempaltemo_footer > div.container > div:nth-child(1) > div:nth-child(2) > ul > .list-unstyled.text-light.footer-link-list {
+  color: #e0f0e6 !important;
+}
+
+#tempaltemo_footer .list-unstyled.text-light.footer-link-list {
+  color: #e0f0e6 !important;
+}
+
+#div-about-us-main p {
+  color: #e0f0e6 !important;
+
+}
+
+#div-nuestro-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
